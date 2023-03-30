@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+header .nav-container  {
+padding-top: 30px;
+
+}
+
+.search img {
+    margin: 10px 0 0 0;
+}
+
+.search input {
+    padding: 10px 0px 5px 5px;
+    border: 0;
+    outline: none;
+    margin-bottom: 230px;
+    
+    
+}
+
+.ropa ul {
+    background-color: gray;
+
+    list-style: none;
+}
+
+.ropa ul li {    
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-bottom: 7px;
+    height: 50px;
+}
+
+.cart img {
+    margin-left: 45px;
+}
+
+.check label {
+    padding-right: 80px;
+    margin-left: 20px;
+}
+
+.check button {
+    background-image: url(../img/buttom.PNG);
+    background-repeat: no-repeat;
+    padding: 0 10px 39px 120px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.img-principal img {
+    position: relative;
+    bottom: 480px;
+    left: 210px;
+}
+
+.flex , .flex-1 , .flex-2 {
+    display: flex;
+}
+
+
+.flex .price label {
+    margin-right: 10%;
+}
+
+
+.flex-2 .botom button {
+    background-image: url(/img/boton.PNG);
+    background-repeat: no-repeat;
+    padding: 10px 80px 12px 10px;
+    
+}
+
+.container {
+    position: relative;
+    bottom: 450px;
+    left: 210px;
+}
+
+.container-2 {
+    position: relative;
+    bottom: 400px;
+    left: 180px;
+}
